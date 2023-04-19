@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "icon": "image/icon.png",
+  "type": "APP",
+  "name": {
+    "en": "comment_tab_none",
+    "ja": "初期タブ非表示プラグイン"
+  },
+  "description": {
+    "en": "Hide the comment and record change history tab when transitioning from the list screen.",
+    "ja": "一覧画面からの遷移でコメント、レコード変更履歴タブを非表示にします。"
+  },
+  "config": {
+    "html": "html/config.html",
+    "js": [],
+    "css": []
+  },
+  "desktop": {
+    "js": [
+      "js/jquery-3.6.4.min.js",
+      "js/tab.js"
+    ],
+    "css": []
+  }
+}
